@@ -39,7 +39,7 @@ function Gallery(props) {
     }
 
     return (
-        <div className="columns is-vcentered is-multiline">
+        <div className="columns is-vcentered is-multiline is-mobile">
             {urls.map((url) => {
                 return (
                     <div key={url} className="column is-3">
